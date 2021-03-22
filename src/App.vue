@@ -1,8 +1,8 @@
 <template>
-  <Header />
   <main class="main">
     <section class="intro">
       <div class="wrapper">
+        <Header />
         <Battles />
       </div>
     </section>
@@ -34,18 +34,17 @@ export default {
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
-    margin-top: 60px;
   }
 
   .wrapper {
     max-width: 1060px;
     margin: 0 auto;
+    padding: 0;
   }
 
   .intro {
     height: 100vh;
     background: url(./assets/hof-bg.jpeg) no-repeat center;
     background-size: cover;
-    padding-top: 100px;
   }
 </style>
