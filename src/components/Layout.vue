@@ -1,10 +1,18 @@
 <template>
-  <div class="bg"></div>
+  <div class="bg">
+    <div class="wrapper">
+      <slot></slot>
+    </div>
+  </div>
 </template>
 
 <script>
+
 export default {
-name: "Layout"
+  name: "Layout",
+  components: {
+
+  }
 }
 </script>
 
@@ -13,5 +21,11 @@ name: "Layout"
     height: 100vh;
     background: url(../assets/hof-bg.jpeg) no-repeat center;
     background-size: cover;
+  }
+
+  .wrapper {
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 0;
   }
 </style>
