@@ -71,10 +71,13 @@
   </table>
 </template>
 
-<script>
-export default {
+<script lang="ts">
+
+import { defineComponent } from "vue";
+
+export default defineComponent({
   name: "Battles"
-}
+})
 </script>
 
 <style scoped>
@@ -98,7 +101,7 @@ export default {
     color: #efefef;
     font-weight: bold;
     padding: 5px;
-    background: #5f5e5e;
+    background: #707070;
   }
 
   .table td{
@@ -106,12 +109,12 @@ export default {
     text-align: center;
   }
   .table tbody tr:nth-child(odd){
-    background: #777777;
+    background: #5b5b5b;
     opacity: 80%;
   }
 
   .table tbody tr:nth-child(even){
-    background: #535252;
+    background: #393939;
     opacity: 80%;
   }
 </style>
