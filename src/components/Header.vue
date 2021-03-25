@@ -21,10 +21,13 @@
   </header>
 </template>
 
-<script>
-export default {
-name: "Header"
-}
+<script lang="ts">
+
+import { defineComponent } from "vue";
+
+export default defineComponent({
+  name: "Header"
+})
 </script>
 
 <style scoped>

@@ -6,14 +6,13 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 
-export default {
-  name: "Layout",
-  components: {
+import { defineComponent } from "vue";
 
-  }
-}
+export default defineComponent({
+  name: "Layout"
+})
 </script>
 
 <style scoped>
