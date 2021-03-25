@@ -1,23 +1,21 @@
 <template>
-  <main class="main">
-    <section class="intro">
-      <div class="wrapper">
-        <Header />
-        <Battles />
-      </div>
-    </section>
-  </main>
+  <Layout>
+    <Header />
+    <Battles />
+  </Layout>
 </template>
 
 <script>
-import Header from "@/components/Header";
+import Layout from "@/components/Layout";
 import Battles from "@/components/Battles";
+import Header from "@/components/Header";
 
 export default {
   name: 'App',
   components: {
-    Battles,
+    Layout,
     Header,
+    Battles,
   }
 }
 </script>
@@ -34,17 +32,5 @@ export default {
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
-  }
-
-  .wrapper {
-    max-width: 1060px;
-    margin: 0 auto;
-    padding: 0;
-  }
-
-  .intro {
-    height: 100vh;
-    background: url(./assets/hof-bg.jpeg) no-repeat center;
-    background-size: cover;
   }
 </style>
