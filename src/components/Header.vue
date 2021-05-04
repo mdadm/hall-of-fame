@@ -7,13 +7,13 @@
       <nav class="header__nav">
         <ul class="header__list">
           <li class="header__item">
-            <a href="#!" class="header__link">Battles</a>
+            <router-link to="/battles" class="header__link">Battles</router-link>
           </li>
           <li class="header__item">
-            <a href="#!" class="header__link">Players</a>
+            <router-link to="/users" class="header__link">Players</router-link>
           </li>
           <li class="header__item">
-            <a href="#!" class="header__link">Profile</a>
+            <router-link to="/" class="header__link">Profile</router-link>
           </li>
         </ul>
       </nav>

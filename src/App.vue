@@ -6,7 +6,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { defineComponent } from "vue";
 import Layout from "@/components/Layout.vue";
 import Header from "@/components/Header.vue";
 import Battles from "@/components/Battles.vue";
@@ -15,9 +15,11 @@ import Battles from "@/components/Battles.vue";
 export default defineComponent({
   name: 'App',
   components: {
-    Battles,
     Header,
-    Layout
+    Layout,
+    Battles
+  },
+  setup () {
   }
 });
 </script>
