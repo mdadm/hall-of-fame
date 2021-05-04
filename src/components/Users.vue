@@ -1,8 +1,8 @@
 <template>
  <div>
-   <div class="users-table__title">
+   <h1 class="users__title">
      Users Table
-   </div>
+   </h1>
    <table class="table">
      <thead>
      <tr>
@@ -53,7 +53,7 @@ export default Users;
 
 <style scoped>
 
-.users-table__title {
+.users__title {
   font-weight: 500;
   font-size: 32px;
   line-height: 60px;

@@ -2,7 +2,7 @@
   <header class="header">
     <div class="header__wrapper">
       <div class="header__logo">
-        <a href="/" class="header__logo-link">Hall Of Fame</a>
+        <router-link to="/" class="header__logo-link">Hall Of Fame</router-link>
       </div>
       <nav class="header__nav">
         <ul class="header__list">
